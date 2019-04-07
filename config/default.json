@@ -1,0 +1,17 @@
+{
+    "scoreboardUrl": "https://data.nba.net/prod/v2/",
+    "gameIds": [{
+        "gameId": "0041700401",
+        "gameDate": "20180531"
+    }, {
+        "gameId": "0041700402",
+        "gameDate": "20180603"
+    }, {
+        "gameId": "0041700403",
+        "gameDate": "20180606"
+    }],
+    "gameDeeplinks": {
+        "mobile": "gametime://games/",
+        "web": "https://www.nba.com/games/"
+    }
+}
