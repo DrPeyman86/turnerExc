@@ -1,567 +1,234 @@
-[2019-04-07T15:04:30.078] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180606 },
-  { gameId: '0041700402', gameDate: 201805322 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:04:30.179] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:30.262] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:30.361] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:04:30.362] [DEBUG] turnerExc -  No games found on 201805322 date
-[2019-04-07T15:04:38.090] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 201805322 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:04:38.135] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:38.228] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:38.256] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:04:38.256] [DEBUG] turnerExc -  No games found on 201805322 date
-[2019-04-07T15:04:59.360] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 201805322 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:04:59.550] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:59.702] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:04:59.839] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:04:59.839] [DEBUG] turnerExc -  No games found on 201805322 date
-[2019-04-07T15:05:50.658] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180606 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:05:50.755] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:05:50.858] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:05:50.961] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:06:05.529] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:06:05.623] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:06:05.890] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:06:05.923] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:09:34.053] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:09:34.271] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:34.272] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:09:34.304] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:34.305] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:09:34.335] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:34.335] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:09:45.918] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:09:46.091] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:46.091] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:09:46.124] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:46.125] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:09:46.152] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:09:46.152] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:10:26.178] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:10:26.354] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:10:26.354] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:10:26.379] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:10:26.379] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:10:26.404] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:10:26.404] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:11:57.521] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:11:57.717] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:11:57.717] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:11:57.742] [DEBUG] turnerExc - { status: false, body: null }
-[2019-04-07T15:11:57.742] [DEBUG] turnerExc -  No games found on undefined date
-[2019-04-07T15:12:41.409] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:13:57.671] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:16:39.821] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:16:51.017] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:17:09.938] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:17:41.911] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180603 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:17:42.088] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:17:42.179] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:17:58.975] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180606 },
-  { gameId: '0041700402', gameDate: 20180606 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:17:59.856] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:00.006] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:49.753] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180606 },
-  { gameId: '0041700402', gameDate: 20180606 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:18:50.032] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:50.160] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:58.903] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180606 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:18:58.970] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:59.144] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:18:59.174] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:26.646] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: 20180603 },
-  { gameId: '0041700402', gameDate: 20180606 },
-  { gameId: '0041700403', gameDate: 20180531 } ]
-[2019-04-07T15:19:26.844] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:27.285] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:27.375] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.541] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180603' } ]
-[2019-04-07T15:19:41.736] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.765] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.795] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180603' } ]
-[2019-04-07T15:19:41.829] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.864] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.882] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180603' } ]
-[2019-04-07T15:19:41.909] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.937] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.948] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180603' } ]
-[2019-04-07T15:19:41.970] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:19:41.996] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:20:14.324] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
+[2019-04-07T20:02:55.088] [DEBUG] turnerExc - undefined
+[2019-04-07T20:02:55.088] [DEBUG] turnerExc - TypeError: Cannot read property 'map' of undefined
+    at Object.requestGames (C:\Domains\turnerExc\request\requestGame.js:13:46)
+    at app.post (C:\Domains\turnerExc\app.js:28:17)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at app.use (C:\Domains\turnerExc\app.js:22:5)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Domains\turnerExc\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at C:\Domains\turnerExc\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Domains\turnerExc\node_modules\raw-body\index.js:224:16)
+    at done (C:\Domains\turnerExc\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Domains\turnerExc\node_modules\raw-body\index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+[2019-04-07T20:02:55.107] [DEBUG] turnerExc - undefined
+[2019-04-07T20:02:55.107] [DEBUG] turnerExc - TypeError: Cannot read property 'map' of undefined
+    at Object.requestGames (C:\Domains\turnerExc\request\requestGame.js:13:46)
+    at app.post (C:\Domains\turnerExc\app.js:28:17)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at app.use (C:\Domains\turnerExc\app.js:22:5)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Domains\turnerExc\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at C:\Domains\turnerExc\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Domains\turnerExc\node_modules\raw-body\index.js:224:16)
+    at done (C:\Domains\turnerExc\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Domains\turnerExc\node_modules\raw-body\index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+[2019-04-07T20:02:55.116] [DEBUG] turnerExc - undefined
+[2019-04-07T20:02:55.116] [DEBUG] turnerExc - TypeError: Cannot read property 'map' of undefined
+    at Object.requestGames (C:\Domains\turnerExc\request\requestGame.js:13:46)
+    at app.post (C:\Domains\turnerExc\app.js:28:17)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at app.use (C:\Domains\turnerExc\app.js:22:5)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Domains\turnerExc\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at C:\Domains\turnerExc\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Domains\turnerExc\node_modules\raw-body\index.js:224:16)
+    at done (C:\Domains\turnerExc\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Domains\turnerExc\node_modules\raw-body\index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+[2019-04-07T20:02:55.119] [DEBUG] turnerExc - undefined
+[2019-04-07T20:02:55.119] [DEBUG] turnerExc - TypeError: Cannot read property 'map' of undefined
+    at Object.requestGames (C:\Domains\turnerExc\request\requestGame.js:13:46)
+    at app.post (C:\Domains\turnerExc\app.js:28:17)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Domains\turnerExc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at app.use (C:\Domains\turnerExc\app.js:22:5)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Domains\turnerExc\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\Domains\turnerExc\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:317:13)
+    at C:\Domains\turnerExc\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Domains\turnerExc\node_modules\express\lib\router\index.js:275:10)
+    at C:\Domains\turnerExc\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Domains\turnerExc\node_modules\raw-body\index.js:224:16)
+    at done (C:\Domains\turnerExc\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Domains\turnerExc\node_modules\raw-body\index.js:273:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+[2019-04-07T20:04:40.889] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
   { gameId: '0041700402', gameDate: '20180603' },
   { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:20:14.441] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.009] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2019-03-18 11:44:16.404',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.564] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.253] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-08-15 13:58:50.673',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.590] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.289] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-09-24 15:24:37.999',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: 'linescores' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.602] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
+[2019-04-07T20:04:41.313] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
   { gameId: '0041700402', gameDate: '20180603' },
   { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:20:14.624] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.337] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2019-03-18 11:44:16.404',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.669] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.377] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-08-15 13:58:50.673',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.691] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.409] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-09-24 15:24:37.999',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: 'linescores' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.701] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
+[2019-04-07T20:04:41.425] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
   { gameId: '0041700402', gameDate: '20180603' },
   { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:20:14.729] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.453] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2019-03-18 11:44:16.404',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.754] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.489] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-08-15 13:58:50.673',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.789] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.521] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-09-24 15:24:37.999',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: 'linescores' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.796] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
+[2019-04-07T20:04:41.533] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
   { gameId: '0041700402', gameDate: '20180603' },
   { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:20:14.816] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.557] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2019-03-18 11:44:16.404',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.871] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.585] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-08-15 13:58:50.673',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
      numGames: 1,
      games: [ [Object] ] } }
-[2019-04-07T15:20:14.895] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.317] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:33:37.480] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.662] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.685] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.712] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:33:37.740] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.764] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.795] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.800] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:33:37.827] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.856] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.879] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-09-24 15:24:37.999',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: 'linescores' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.884] [DEBUG] turnerExc - [ { gameId: '0041700401', gameDate: '20180531' },
-  { gameId: '0041700402', gameDate: '20180603' },
-  { gameId: '0041700403', gameDate: '20180606' } ]
-[2019-04-07T15:33:37.912] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2019-03-18 11:44:16.404',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.938] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
-      { pubDateTime: '2018-08-15 13:58:50.673',
-        xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
-        eventName: '_SPECIAL_ELA_EVENT_martyDailyScoreboard2' },
-     numGames: 1,
-     games: [ [Object] ] } }
-[2019-04-07T15:33:37.958] [DEBUG] turnerExc - { status: true,
-  body:
-   { _internal:
+[2019-04-07T20:04:41.625] [DEBUG] turnerExc - { status: true,
+  body: 
+   { _internal: 
       { pubDateTime: '2018-09-24 15:24:37.999',
         xslt: 'xsl/league/schedule/marty_daily_scoreboard.xsl',
         eventName: 'linescores' },

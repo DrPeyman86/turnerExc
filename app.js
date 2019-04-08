@@ -23,9 +23,9 @@ app.use((req,res,next)=>{
   })
 
 app.post("/getGames", (req,res,next)=>{
-    logger.debug(req.body.gameDates);
+    logger.debug(req.body.gameIds);
     
-    requestGame.requestGames(req.body.gameDates)
+    requestGame.requestGames(req.body.gameIds)
     .then((results)=>{
             res.status(200).json(results);       
     })

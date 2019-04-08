@@ -6,14 +6,14 @@ const axios = require('axios');
 const app = require('../app')
 
 const gamesToGenerate = config.get('gameIds');
-const lastGameToGenerate = Math.max.apply(Math,gamesToGenerate.map(function(game){return game.gameDate}));
+const lastGameToGenerate = Math.max.apply(Math,gamesToGenerate.map(function(game){return game.gameDate}));//get last game based on gameDate value
 
 describe('/Post Request Get Game Dates', ()=> {
     //1. should include the 2 properties included in response template games and meta
     it('1. should include properties from response template',(done)=>{
         request(app)
         .post('/getGames')
-        .send({gameDates: gamesToGenerate})
+        .send({gameIds: gamesToGenerate})
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/)
@@ -31,7 +31,7 @@ describe('/Post Request Get Game Dates', ()=> {
     it('2. the games property should be an array and count of array should be count of array of object requested',(done)=>{
         request(app)
         .post('/getGames')
-        .send({gameDates: gamesToGenerate})
+        .send({gameIds: gamesToGenerate})
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/)
@@ -48,7 +48,7 @@ describe('/Post Request Get Game Dates', ()=> {
     it('3. the games property nested objects should include the properties defined in the response template',(done)=>{
         request(app)
         .post('/getGames')
-        .send({gameDates: gamesToGenerate})
+        .send({gameIds: gamesToGenerate})
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/)
@@ -76,7 +76,7 @@ describe('/Post Request Get Game Dates', ()=> {
     it('4. the last game in series of the array provided to request should match the seriesSummaryText from last game in series made on separate request',(done)=>{
         request(app)
         .post('/getGames')
-        .send({gameDates: gamesToGenerate})
+        .send({gameIds: gamesToGenerate})
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/)

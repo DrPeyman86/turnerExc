@@ -29,10 +29,11 @@ let requestGames = async function(eventGames) {
             
         }     
         responseObj.games = gamesArr;
-        responseObj.meta = metaArr[metaArr.length-1];
+        responseObj.meta = metaArr[metaArr.length-1];//get the last index of the meta array to get the last seriesSummaryText
 
         return responseObj;
-    } catch (e) {       
+    } catch (e) {
+        logger.debug(e);       
         return e;
     } 
     
