@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "b3121feb-dbb1-4ae7-8338-a689616f42cb",
+		"name": "Turner Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3200/getGames",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"gameIds\": [{\n        \"gameId\": \"0041700401\",\n        \"gameDate\": \"20180531\"\n    }, {\n        \"gameId\": \"0041700402\",\n        \"gameDate\": \"20180603\"\n    }, {\n        \"gameId\": \"0041700403\",\n        \"gameDate\": \"20180606\"\n    }]\n}"
+				},
+				"url": {
+					"raw": "localhost:3200/getGames",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"getGames"
+					]
+				},
+				"description": "Request get games "
+			},
+			"response": []
+		}
+	]
+}
