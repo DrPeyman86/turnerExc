@@ -15,7 +15,7 @@
 						"value": "application/json"
 					}
 				],
-				"body": {
+				"body": { 
 					"mode": "raw",
 					"raw": "{\n\t\"gameIds\": [{\n        \"gameId\": \"0041700401\",\n        \"gameDate\": \"20180531\"\n    }, {\n        \"gameId\": \"0041700402\",\n        \"gameDate\": \"20180603\"\n    }, {\n        \"gameId\": \"0041700403\",\n        \"gameDate\": \"20180606\"\n    }]\n}"
 				},

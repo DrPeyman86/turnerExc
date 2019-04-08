@@ -86,6 +86,6 @@ describe('/Post Request Get Game Dates', ()=> {
              expect(res.meta.seriesStatus).to.equal(lastGameSeriesResponse.games[0].playoffs.seriesSummaryText)
              done();
         })
-    })
+    }) 
 
 })

@@ -19,7 +19,7 @@ app.use((req,res,next)=>{
     res.setHeader('Access-Control-Allow-Origin', "*");//which domains are able to access the resources from backend
     res.setHeader("Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept, Authorization")
     res.setHeader("Access-Control-Allow-Methods", "GET,POST");
-    next();//continue
+    next();//continue.
   })
 
 app.post("/getGames", (req,res,next)=>{

@@ -1,5 +1,4 @@
 const config = require('config');
-//let games = []
 
 
 let formatGames = (game, lastGameSeries)=>{
@@ -23,10 +22,6 @@ let formatGames = (game, lastGameSeries)=>{
         }
     }
 
-    //games.push(gamesObj)
-
-
-    //return gameObj;
 }
 
 module.exports = {
