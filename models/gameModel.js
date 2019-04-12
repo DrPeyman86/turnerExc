@@ -1,32 +1,33 @@
 const config = require('config');
-//let games = []
 
+let formatGames = (games)=>{
+    let gamesOnDate = [];
 
-let formatGames = (game, lastGameSeries)=>{
-
-    return {
-        gameId: game.games[0].gameId,
-        startTimeUTC: game.games[0].startTimeUTC,
-        vTeam: {
-            teamId: game.games[0].vTeam.teamId,
-            tricode: game.games[0].vTeam.triCode,
-            score: game.games[0].vTeam.score,
-        },
-        hTeam: {
-            teamId: game.games[0].hTeam.teamId,
-            tricode: game.games[0].hTeam.triCode,
-            score: game.games[0].hTeam.score,
-        },
-        deeplinkUrls: {
-            mobile: config.get('gameDeeplinks.mobile') + '/' + game.games[0].gameId,
-            web: config.get('gameDeeplinks.web') + '/' + game.games[0].startDateEastern + '/' + game.games[0].vTeam.triCode + game.games[0].hTeam.triCode
+    games.map((game)=>{
+        //console.log(game);
+        let gameOnDate = {
+            gameId: game.gameId,
+            startTimeUTC: game.startTimeUTC,
+            vTeam: {
+                teamId: game.vTeam.teamId,
+                tricode: game.vTeam.triCode,
+                score: game.vTeam.score,
+            },
+            hTeam: {
+                teamId: game.hTeam.teamId,
+                tricode: game.hTeam.triCode,
+                score: game.hTeam.score,
+            },
+            deeplinkUrls: {
+                mobile: config.get('gameDeeplinks.mobile') + '/' + game.gameId,
+                web: config.get('gameDeeplinks.web') + '/' + game.startDateEastern + '/' + game.vTeam.triCode + game.hTeam.triCode
+            }
         }
-    }
+        gamesOnDate.push(gameOnDate);
+    })
 
-    //games.push(gamesObj)
-
-
-    //return gameObj;
+    return gamesOnDate;
+     
 }
 
 module.exports = {

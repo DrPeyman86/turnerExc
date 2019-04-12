@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "12b07609-bf8d-49cb-adac-be6b2f404ce3",
+		"name": "Turner Exercise ",
+		"description": "Turner Broadcasting Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3200/getGames",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"gameDates\": [{\n\t\t\"gameId\": \"0041700401\",\n\t\t\"gameDate\": 20180606\n\t},{\n\t\t\"gameId\": \"0041700402\",\n\t\t\"gameDate\": 201805322\n\t},{\n\t\t\"gameId\": \"0041700403\",\n\t\t\"gameDate\": 20180531\n\t}]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3200/getGames",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"getGames"
+					]
+				},
+				"description": "Get games provided from template. "
+			},
+			"response": []
+		}
+	]
+}

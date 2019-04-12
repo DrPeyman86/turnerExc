@@ -10,15 +10,29 @@ let requestGames = async function(eventGames) {
     let responseObj = new Object()
 
     try {
-        eventGames =  [...new Set(eventGames.map(x => x.gameDate))];//remove potential duplicates
+        //eventGames =  [...new Set(eventGames.map(x => x.gameDate))];//remove potential duplicates
+        //console.log(eventGames);
         eventGames.sort((a,b)=>a - b);
         for(let i=0; i < eventGames.length; i++) {
-            let url = config.get('scoreboardUrl') + eventGames[i] + '/scoreboard.json';
+            let url = config.get('scoreboardUrl') + eventGames[i].gameDate + '/scoreboard.json';
             
             let results = await fetchResults(url);
-            logger.debug(results);
+            logger.debug(results.body.games);
+            
             if(results.status){
-                let gameObj = gamesModel.formatGames(results.body);
+                const distinctGames = [...new Set(results.body.games.map(x=>x.gameId))]
+                //console.log(distinctGames);
+                
+                // distinctGames.forEach((gameSeries)=>{
+                //     var result = results.body.games.filter(obj=>obj.gameId === gameSeries) 
+                //     console.log(result[0].gameId);
+                // })
+
+                console.log(getCount(results.body.games));
+
+                let gameObj = gamesModel.formatGames(results.body.games);
+                //console.log(gameObj);
+
                 gamesArr.push(gameObj);
 
                 metaArr.push({ seriesStatus: results.body.games[0].playoffs.seriesSummaryText});
@@ -37,8 +51,17 @@ let requestGames = async function(eventGames) {
         return e;
     } 
     
+}
 
-    
+function getCount(array) {
+    var count = {};
+    array.forEach(function (a) {
+        // count[a.gameId] = (count[a.gameId] || 0) + 1;
+        count[a.gameId] = (count[a.gameId] || 0) + 1;
+    });
+    return Object.keys(count).map(function (k) {
+        return { parts: { uniquePart: k, timesListed: count[k] } };
+    });
 }
 
 
